@@ -1,0 +1,18 @@
+.task{
+    background-color: rgb(17, 17, 92);
+    color: white;
+    border-radius: 10px;    
+    height: 40px;
+    width: 100%;
+    flex: 1;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.done{
+    background-color: blueviolet;
+    text-decoration:line-through;
+}

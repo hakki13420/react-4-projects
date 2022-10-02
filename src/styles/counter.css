@@ -1,0 +1,30 @@
+.counter-container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(9, 6, 65); ;
+}
+.counter{
+    border: 7px solid white;
+    color: white;
+    font-size: 8rem;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.buttons button{
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 200px;
+}

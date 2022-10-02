@@ -1,0 +1,14 @@
+.calculator{
+    background: rgb(159, 190, 225);
+    border: 2px solid white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.pave{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(60px,auto);
+    gap: 10px;
+}

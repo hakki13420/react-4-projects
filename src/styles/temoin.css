@@ -1,0 +1,25 @@
+.container-temoin{
+    width: 90%;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 4px 4px 12px 3px rgb(0 0 0 / 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.description-temoin{
+    padding: 20px;
+}
+.description-temoin p:nth-child(1){
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.description-temoin p:nth-child(2) {    
+    line-height: 36px;
+    text-align: center;
+}
+.description-temoin p:nth-child(3) {    
+    text-align: justify;
+}
